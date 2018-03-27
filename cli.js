@@ -7,14 +7,14 @@ prompt.message = "";
 const userPrompts = [
   {
     name: "username",
-    validator: /^[a-zA-z\s\-]+$/,
-    warning: "Username must only contain letters, spaces, and dashes"
+    pattern: /^[a-zA-z\s\-]+$/,
+    message: "Username must only contain letters, spaces, and dashes"
   },
   {
     name: "password",
     description: "Enter your password",
     type: "string",
-    validator: /^\w+$/,
+    pattern: /^\w+$/,
     message: "Password must be letters",
     hidden: true,
     replace: "*",
