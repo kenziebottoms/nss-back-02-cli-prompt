@@ -20,7 +20,6 @@
   "homepage": "https://github.com/kenziebottoms/nss-back-02-cli-prompt#readme",
   "dependencies": {
     "colors": "^1.2.1",
-    "nodemon": "^1.17.2",
     "prompt": "^1.0.0"
   }
 }
